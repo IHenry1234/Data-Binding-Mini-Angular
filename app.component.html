@@ -1,0 +1,6 @@
+<label for="name">Name</label>
+<input type="text" id="name" [(ngModel)]="name"><br>
+{{name}}
+<button (click)="printText()">Click Me!!</button>
+
+<h2 [ngStyle] = "{'color':(testBoolean) ? '#ff00ff': '#000000'}">Good Morning!!</h2>
